@@ -9,7 +9,7 @@ Watch the system in action handling duplicate grouping, hidden charges, and bulk
 
 [![Watch the video]](https://drive.google.com/file/d/1ttyQPNGqfiUuIua4am3qbbWEq61B7AXw/view?usp=sharing)
 
-> **[Click here to watch the demo video](PASTE_YOUR_YOUTUBE_OR_LOOM_LINK_HERE)**
+> **[Click here to watch the demo video](https://drive.google.com/file/d/1ttyQPNGqfiUuIua4am3qbbWEq61B7AXw/view?usp=sharing)**
 
 ![Dashboard](frontend/src/assets/dashboard.jpg) 
 
