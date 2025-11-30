@@ -58,7 +58,8 @@ const FileUpload = () => {
 
     try {
       //BACKEND API CALL
-      const response = await axios.post('http://localhost:5000/api/upload', formData, {
+      const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      const response = await axios.post(`${API_URL}/api/upload`, formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
         onUploadProgress: (progressEvent) => {
           const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total);
