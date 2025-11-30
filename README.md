@@ -7,12 +7,12 @@ An intelligent invoice extraction system capable of processing **PDFs, Images, a
 
 Watch the system in action handling duplicate grouping, hidden charges, and bulk excel processing.
 
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+[![Watch the video](https://drive.google.com/file/d/1-by-rivsb_Y62KOsfuNLQpAhjAiz1z8w/view?usp=sharing)](https://drive.google.com/file/d/1-by-rivsb_Y62KOsfuNLQpAhjAiz1z8w/view?usp=sharing)
 
 > **[Click here to watch the demo video](PASTE_YOUR_YOUTUBE_OR_LOOM_LINK_HERE)**
 
 ![Dashboard](frontend/src/assets/dashboard.jpg) 
-*(Add a screenshot of your dashboard here)*
+
 
 
 
@@ -98,4 +98,4 @@ I have successfully handled all edge cases mentioned in the assignment:
 
 ---
 
-**Made with ❤️ by [Saurabh Tripathi]**
+**Made with ❤️ by Saurabh Tripathi**
