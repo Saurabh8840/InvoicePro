@@ -7,7 +7,7 @@ An intelligent invoice extraction system capable of processing **PDFs, Images, a
 
 Watch the system in action handling duplicate grouping, hidden charges, and bulk excel processing.
 
-[![Watch the video](https://drive.google.com/file/d/1-by-rivsb_Y62KOsfuNLQpAhjAiz1z8w/view?usp=sharing)](https://drive.google.com/file/d/1-by-rivsb_Y62KOsfuNLQpAhjAiz1z8w/view?usp=sharing)
+[![Watch the video]](https://drive.google.com/file/d/1-by-rivsb_Y62KOsfuNLQpAhjAiz1z8w/view?usp=sharing)
 
 > **[Click here to watch the demo video](PASTE_YOUR_YOUTUBE_OR_LOOM_LINK_HERE)**
 
