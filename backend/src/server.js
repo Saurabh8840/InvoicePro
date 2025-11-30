@@ -7,13 +7,19 @@ import productRoutes from './routes/productRoutes.js';
 import customerRoutes from './routes/customerRoutes.js';
 import { errorHandler } from './middleware/errorHandler.js';
 
+
+
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: process.env.FRONTEND_URL,
+  origin: [
+    "http://localhost:5173",                  
+    "https://invoice-pro-mu.vercel.app",      
+    process.env.FRONTEND_URL                  
+  ],
   credentials: true,
   methods: "GET,POST,PUT,DELETE"
 }));
