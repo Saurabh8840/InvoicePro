@@ -35,6 +35,11 @@ const dataSlice = createSlice({
       const productIndex = state.products.findIndex(p => p.id === id);
       if (productIndex !== -1) {
         const p = state.products[productIndex];
+        const oldName=p.name;
+        
+        //write here 
+        const newName=updates.name!==undefined?updates.name:p.name;
+
         
         const newQty = updates.quantity !== undefined ? Number(updates.quantity) : p.quantity;
         const newUnitPrice = updates.unitPrice !== undefined ? Number(updates.unitPrice) : p.unitPrice;
@@ -46,7 +51,8 @@ const dataSlice = createSlice({
         
         state.products[productIndex] = { 
           ...p, 
-          ...updates, 
+          ...updates,
+          name:newName, 
           quantity: newQty, 
           unitPrice: newUnitPrice,
           tax: newTax,
@@ -60,6 +66,7 @@ const dataSlice = createSlice({
           inv.items.forEach(item => {
             if (item.name === p.name || item.productId === id) {
               item.qty = newQty; 
+              item.name=newName;
               item.unitPrice = newUnitPrice;
               item.tax = newTax;
               item.total = item.qty * priceWithTax; 
