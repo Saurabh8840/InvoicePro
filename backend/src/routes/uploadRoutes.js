@@ -70,7 +70,7 @@ router.post('/upload', upload.array('files', 10), async (req, res) => {
         }
     });
 
-    
+    //send info to front
     db.issues.push(...combinedResults.issues);
 
     
