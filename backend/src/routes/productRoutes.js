@@ -21,7 +21,7 @@ router.put('/products/:name', (req, res) => {
     db.products[index] = updatedProduct;
 
     
-    
+    //recalculating values
     if (req.body.unitPrice || req.body.tax) {
        db.invoices.forEach(inv => {
           if (inv.productName === oldName) {
